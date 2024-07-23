@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="color-scheme" content="light dark" />
+        <meta name="description" content="IP Potato" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+        />
+        <title>IP Potato</title>
+        <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    </head>
+    <body>
+        <main class="container" style="text-align: center;">
+            <h1>
+                <img src="/static/potato.png" height="100" width="100" /> IP Potato
+            </h1>
+
+            <div>
+                <p>Your IP Address</p>
+                <hr />
+                <p>{{.ip}}</p>
+            </div>
+
+            <section>
+                <small>Image by <a href="https://www.freepik.com/free-vector/hand-drawn-potato-cartoon-illustration_58524582.htm#query=cute%20potato&position=25&from_view=keyword&track=ais_user&uuid=5359ec88-314b-45d4-9d3f-939c1e9fd930">Freepik</a></small>
+            </section>
+        </main>
+    </body>
+</html>
